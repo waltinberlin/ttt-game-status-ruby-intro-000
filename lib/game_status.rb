@@ -42,7 +42,7 @@ def over?(board)
   if (draw?(board)==true)
     puts "draw"
     true
-  elsif (won?(board) == true && full?(board) == true)
+  elsif won?(board) == true && full?(board) == true
     puts "won & full"
     true
   elsif (won?(board) == true && full?(board) == false)

@@ -55,6 +55,6 @@ def winner(board)
   if ret != false
     board[ret[0]]
   else
-    false
+    nil
   end
 end

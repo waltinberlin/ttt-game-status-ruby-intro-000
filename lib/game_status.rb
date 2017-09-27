@@ -42,10 +42,10 @@ def over?(board)
   if (draw?(board)==true)
     puts "draw"
     true
-  elsif won?(board) == true && full?(board) == true
+  elsif won?(board) <> false && full?(board) == true
     puts "won & full"
     true
-  elsif (won?(board) == true && full?(board) == false)
+  elsif won?(board) <> false && full?(board) == false
     puts "won & not full"
     true
   else

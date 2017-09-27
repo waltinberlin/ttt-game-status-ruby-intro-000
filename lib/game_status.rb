@@ -49,6 +49,8 @@ def over?(board)
     puts "won & not full"
     true
   else
+    puts won?(board)
+    puts full?(board)
     puts "else"
     false
   end
